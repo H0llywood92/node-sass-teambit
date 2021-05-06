@@ -17,6 +17,7 @@ img {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     color: $text_color_primary;
+    font-weight: 900;
 }
 
 ul {
@@ -26,4 +27,8 @@ ul {
 a {
     text-decoration: none;
     color: $text_color_primary;
+}
+
+p {
+    font-weight: 600;
 }

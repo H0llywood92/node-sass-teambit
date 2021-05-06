@@ -16,6 +16,7 @@ img {
 body {
   font-family: "Source Sans Pro", sans-serif;
   color: #58402c;
+  font-weight: 900;
 }
 
 ul {
@@ -25,6 +26,10 @@ ul {
 a {
   text-decoration: none;
   color: #58402c;
+}
+
+p {
+  font-weight: 600;
 }
 
 .navbar-menu {
@@ -56,9 +61,50 @@ a {
   color: blue;
   border: 1px solid blue;
   border-radius: 10px;
-  cursor: pointer;
 }
 .navbar-menu .link-list ul li:last-child button img {
   width: 20px;
   margin-right: 5px;
+}
+
+.jumbotron {
+  display: flex;
+  padding: 50px 0;
+}
+.jumbotron .jumbotron-text {
+  width: 50%;
+}
+.jumbotron .jumbotron-text h1 {
+  font-size: 35px;
+}
+.jumbotron .jumbotron-text p {
+  padding: 10px 0;
+  font-size: 18px;
+}
+.jumbotron .jumbotron-text p:last-child {
+  font-size: 16px;
+}
+.jumbotron .jumbotron-text .btn-container {
+  display: flex;
+  padding: 20px 0;
+}
+.jumbotron .jumbotron-text .btn-container .or {
+  padding: 0 15px;
+}
+.jumbotron .jumbotron-text button {
+  display: flex;
+  padding: 3px;
+  align-items: center;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.jumbotron .jumbotron-text button img {
+  width: 20px;
+  margin-right: 5px;
+}
+.jumbotron .jumbotron-image {
+  width: 50%;
 }
