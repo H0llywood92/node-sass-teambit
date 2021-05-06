@@ -61,6 +61,7 @@ p {
   color: blue;
   border: 1px solid blue;
   border-radius: 10px;
+  cursor: pointer;
 }
 .navbar-menu .link-list ul li:last-child button img {
   width: 20px;
