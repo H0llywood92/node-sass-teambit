@@ -18,7 +18,7 @@
 
             p {
                 padding: 10px 0;
-                font-weight: 400;
+                font-weight: $fnt_weight_400;
             }
     }
 
@@ -48,7 +48,7 @@
 
         p {
             width: 50%;
-            font-weight: 400;
+            font-weight: $fnt_weight_400;
             padding: 20px 0;
             font-size: 25px;
         }
@@ -56,7 +56,7 @@
         a {
             color: blue;
             font-size: 20px;
-            font-weight: 400;
+            font-weight: $fnt_weight_400;
         }
 
         img {
@@ -77,6 +77,61 @@
         img {
             margin-top: 30px;
             width: 450px;
+        }
+    }
+}
+
+.bg-brown.get-started {
+    text-align: center;
+    padding-bottom: 60px;
+
+    h2 {
+        font-size: 60px;
+    }
+
+    .paragraph-info {
+        background-color: white;
+        border: 1px solid darkblue;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: left;
+
+        p {
+            padding: 10px 0;
+        }
+
+        .co-founders {
+            @include flex_setting;
+            padding-top: 20px;
+
+            img {
+                width: 60px;
+                height: auto;
+                margin-right: 20px;
+            }
+
+            .co-founders-name {
+                color: blue;
+                font-weight: $fnt_weight_400;
+            }
+
+            p {
+                padding: 0;
+                font-weight: $fnt_weight_400;
+            }
+        }
+    }
+
+    .btn-container {
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .happy {
+    
+        img {
+            width: 25px;
         }
     }
 }

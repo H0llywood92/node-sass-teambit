@@ -65,18 +65,7 @@
             }
         }
 
-        .btn-container {
-            @include flex_setting;
-            padding: 20px 0;
 
-            .or{
-                padding: 0 15px
-            }
-        }
-
-        button{
-            @include button-content;
-        }
     }
 
     .jumbotron-image {

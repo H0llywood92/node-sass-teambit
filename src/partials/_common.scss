@@ -20,6 +20,21 @@ box-sizing: border-box;
     width: 50%;
 }
 
+.btn-container {
+    @include flex_setting;
+    padding: 20px 0;
+
+    .or{
+        padding: 0 15px
+    }
+
+    button{
+        @include button-content;
+    }
+}
+
+
+
 img {
     width: 100%;
 }
