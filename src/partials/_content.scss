@@ -23,7 +23,7 @@
     }
 
     .image-alone {
-        padding-bottom: 100px;
+        padding-bottom: 80px;
 
         img{
             width: 300px
@@ -32,6 +32,11 @@
 
     .divider {
         border: 1px solid $text_color_primary;
+    }
+
+    .last-section-text {
+        font-size: 30px;
+        padding: 50px 0;
     }
 }
 

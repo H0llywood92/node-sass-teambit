@@ -142,13 +142,17 @@ p {
   font-weight: 400;
 }
 .bg-brown .image-alone {
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 .bg-brown .image-alone img {
   width: 300px;
 }
 .bg-brown .divider {
   border: 1px solid #58402c;
+}
+.bg-brown .last-section-text {
+  font-size: 30px;
+  padding: 50px 0;
 }
 
 .double-col {
