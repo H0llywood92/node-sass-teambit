@@ -233,3 +233,33 @@ p {
 .bg-brown.get-started .happy img {
   width: 25px;
 }
+
+footer {
+  display: flex;
+  padding: 40px 0;
+}
+footer .logo-and-info {
+  display: flex;
+  width: 30%;
+  margin-right: 5%;
+}
+footer .logo-and-info img {
+  width: 150px;
+  align-self: baseline;
+  margin-right: 20px;
+}
+footer .logo-and-info p {
+  font-size: 20px;
+}
+footer .logo-and-info p .marked {
+  color: darkblue;
+  font-size: 16px;
+}
+footer .menu {
+  width: 10%;
+  margin: 0px 20px;
+  padding: 0 10px;
+}
+footer .menu li {
+  padding: 10px 0;
+}
