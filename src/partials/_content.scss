@@ -1,0 +1,82 @@
+.bg-brown {
+    background-color: $bg_color_section;
+    text-align: center;
+
+    h2 {
+        padding: 60px 0;
+    }
+
+    .images-first-section {
+        @include flex_setting;
+        justify-content: space-between;
+        padding: 60px 0;
+
+            img {
+                width: auto;
+                height: 100px;
+            };
+
+            p {
+                padding: 10px 0;
+                font-weight: 400;
+            }
+    }
+
+    .image-alone {
+        padding-bottom: 100px;
+
+        img{
+            width: 300px
+        }
+    }
+
+    .divider {
+        border: 1px solid $text_color_primary;
+    }
+}
+
+.double-col {
+    @include flex_setting;
+    padding: 50px 0;
+
+    .with-text {
+
+        h2 {
+            padding: 20px 0;
+            font-size: 30px;
+        }
+
+        p {
+            width: 50%;
+            font-weight: 400;
+            padding: 20px 0;
+            font-size: 25px;
+        }
+
+        a {
+            color: blue;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        img {
+            margin-top: 30px;
+            width: 500px;
+        }
+    }
+
+    .left.with-text {
+        text-align: right;
+
+        p {
+            position: relative;
+            right: -50%;
+            top: 0;
+        }
+
+        img {
+            margin-top: 30px;
+            width: 450px;
+        }
+    }
+}

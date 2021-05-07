@@ -4,10 +4,20 @@ padding: 0;
 box-sizing: border-box;
 }
 
-.wrapper {
-    max-width: 1200px;
+.container {
+    max-width: 80%;
     margin: 0 auto;
 
+}
+
+.container-small {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.left,
+.right {
+    width: 50%;
 }
 
 img {
